@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online-zoo</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../normalize.css">
+  <link rel="stylesheet" href="animalStyle.css">
+</head>
+<body>
+<header>
+  <div class="header">
+    <h1>Online Zoo</h1>
+    <a href="../main/index.html"><div class="logo"></div></a>
+    <nav>
+      <ul>
+        <li><a href="../main/index.html">About</a></li>
+        <li id="active">Zoos</li>
+        <li><a href="../map/intermediatePage.html">Map</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a></li>
+      </ul>
+    </nav>
+    <div class="theme">
+      <input type="checkbox" id="toggle-button" class="toggle-button">
+    </div>
+    <div class="menu">
+      <ul class="submenu">
+        <li><a href="../zoos/panda.html">Zoos</a></li>
+        <li><a href="../map/intermediatePage.html">Map</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<article>
+  <aside>
+    <i class="fas fa-chevron-up"></i>
+    <div class="photos">
+      <div class="photo active-photo" title="panda">
+        <img class="animalPhoto" src="../../assets/images/Ellipse-2.jpg" alt="panda">
+      </div>
+      <a href="eagle.html">
+        <div class="photo" title="eagle">
+          <img class="animalPhoto" src="../../assets/images/Ellipse-4.jpg" alt="eagle">
+        </div>
+      </a>
+      <a href="alligator.html">
+        <div class="photo" title="alligator">
+          <img class="animalPhoto" src="../../assets/images/Ellipse-3.jpg" alt="alligator">
+        </div>
+      </a>
+      <a href="gorilla.html">
+        <div class="photo" title="gorilla">
+          <img class="animalPhoto" src="../../assets/images/Ellipse-1.jpg" alt="gorilla">
+        </div>
+      </a>
+    </div>
+    <i class="fas fa-chevron-down"></i>
+  </aside>
+  <section>
+    <h2>The Beijing Zoo</h2>
+    <div class="video-block">
+      <iframe class="main-iframe" src="https://www.youtube.com/embed/OObOQ2GElhA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="video-info">
+        <div class="info">
+          <h4>Population:</h4>
+          <p>About 1,590 individuals</p>
+          <h4>Habitat:</h4>
+          <p>Temperate forests high in the mountains of southwest China</p>
+          <h4>Diet:</h4>
+          <p>
+            A panda's daily diet consists almost entirely of the leaves, stems and shoots of various bamboo species. Bamboo contains very little
+            nutritional value so pandas must eat 12-38kg every day to meet their energy needs.
+          </p>
+        </div>
+        <a>
+          <div class="button">
+            <p>feed</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="video-gallery">
+      <div class="col-video"></div>
+      <iframe width="246" height="141" src="https://www.youtube.com/embed/OObOQ2GElhA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="246" height="141" src="https://www.youtube.com/embed/OObOQ2GElhA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="246" height="141" src="https://www.youtube.com/embed/OObOQ2GElhA" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="slider">
+        <div class="radio">
+          <input class="custom-radio" type="radio" id="page1" name="page" checked>
+          <label for="page1"></label>
+        </div>
+        <div class="radio">
+          <input class="custom-radio" type="radio" id="page2" name="page">
+          <label for="page2"></label>
+        </div>
+        <div class="radio">
+          <input class="custom-radio" type="radio" id="page3" name="page">
+          <label for="page3"></label>
+        </div>
+      </div>
+    </div>
+  </section>
+</article>
+<footer id="contact">
+  <div class="footer-content">
+    <div class="block-1">
+      <a href="">
+        <div class="logo-w"></div>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="../main/index.html">About</a></li>
+          <li><a href="../zoos/panda.html">Zoos</a></li>
+          <li><a href="../map/intermediatePage.html">Map</a></li>
+          <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a></li>
+        </ul>
+      </nav>
+      <div class="button-watch">
+        <a>
+          <div class="button button-text">
+            <p>donate for volunteers</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="blocks">
+      <div class="block-2">
+        <h4>Contact us</h4>
+        <form>
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <fieldset>
+            <legend>Please enter your message</legend>
+            <textarea maxlength="280" required></textarea>
+          </fieldset>
+          <input type="checkbox" id="ch" required><label for="ch">I agree to the processing of Personal Data</label>
+          <button type="submit">
+            send <img src="../../assets/icons/send.svg" alt="send button">
+          </button>
+        </form>
+      </div>
+      <div class="block-3">
+        <h5>ZOO Online Centre</h5>
+        <address>
+          132, Address District, Street<br>
+          Open Daily 10:00 am - 5:00 pm<br>
+          <span>
+          T<a href="tel:7021633433">(702) 163-3433</a><br>
+          <a href="mailto:zoo.online@gmail.com">zoo.online@gmail.com</a>
+        </span>
+        </address>
+        <div class="social-networks">
+          <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+          <a href="https://twitter.com/" class="fab fa-twitter"></a>
+          <a href="https://vk.com/" class="fab fa-vk"></a>
+          <a href="https://www.youtube.com/" class="fab fa-youtube"></a>
+        </div>
+      </div>
+    </div>
+    <div class="links">
+      <a href="https://github.com/Krivetka">©Ivan Kuliashov</a><br>
+      <a href="https://github.com/rolling-scopes-school">©RSSchool and ©Yem Digital - 2021</a>
+    </div>
+  </div>
+</footer>
+<script src="https://kit.fontawesome.com/a33ff7c2af.js" crossorigin="anonymous"></script>
+</body>
+</html>

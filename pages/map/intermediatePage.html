@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online-zoo</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../normalize.css">
+  <link rel="stylesheet" href="mapStyles.css">
+</head>
+<body>
+<header>
+  <div class="header">
+    <h1>Online Zoo</h1>
+    <a href="../main/index.html"><div class="logo"></div></a>
+    <nav>
+      <ul>
+        <li><a href="../main/index.html">About</a></li>
+        <li><a href="../zoos/panda.html">Zoos</a></li>
+        <li id="active">Map</li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a></li>
+      </ul>
+    </nav>
+    <div class="theme">
+      <input type="checkbox" id="toggle-button" class="toggle-button">
+    </div>
+    <div class="menu">
+      <ul class="submenu">
+        <li><a href="../zoos/panda.html">Zoos</a></li>
+        <li><a href="../map/intermediatePage.html">Map</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<div class="map">
+  <h2>Choose your favorite</h2>
+  <p class="map-text">
+    As a voice for wildlife, we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat, and we are determined to assist in all aspects,
+    including providing veterinary support and raising much-needed emergency funds. Zoo Online saves wildlife and inspires everyone to make conservation a priority in their lives.
+    Animals have the right to a pain-free and happy life. They have equal claim to the resources of this planet, and deserve a life of dignity and compassion.As a voice for wildlife,
+    we are devastated by the impact of the 2020 Australian bushfires on precious species and their habitat
+  </p>
+  <div class="gallery">
+    <i class="fas fa-chevron-left"></i>
+    <div class="photos">
+      <div class="photo">
+        <img class="animalPhoto" src="../../assets/images/Ellipse-1.jpg" alt="gorilla">
+      </div>
+      <div class="photo active-photo">
+        <img class="animalPhoto" src="../../assets/images/Ellipse-2.jpg" alt="panda">
+      </div>
+      <div class="photo">
+        <img class="animalPhoto" src="../../assets/images/Ellipse-3.jpg" alt="alligator">
+      </div>
+      <div class="photo">
+        <img class="animalPhoto" src="../../assets/images/Ellipse-4.jpg" alt="eagle">
+      </div>
+      <div class="photo">
+        <img class="animalPhoto" src="../../assets/images/Ellipse-5.jpg" alt="tiger">
+      </div>
+      <div class="photo">
+        <img class="animalPhoto" src="../../assets/images/Ellipse-6.jpg" alt="elephant">
+      </div>
+      <div class="photo">
+        <img class="animalPhoto" src="../../assets/images/Ellipse-7.jpg" alt="lion">
+      </div>
+      <div class="photo">
+        <img class="animalPhoto" src="../../assets/images/Ellipse-8.jpg" alt="zebra">
+      </div>
+    </div>
+    <i class="fas fa-chevron-right"></i>
+  </div>
+  <div class="pages">
+    <h5><span>02/</span>08</h5>
+    <input type="range" min="01" max="08" value="02">
+  </div>
+  <div class="map-info">
+    <div class="mark" id="placeholder1" title="Panda"></div>
+    <div class="mark" id="placeholder2" title="Eagle"></div>
+    <div class="mark" id="placeholder3" title="Alligator"></div>
+    <div class="mark" id="placeholder4" title="Gorilla"></div>
+  </div>
+  <div class="button-watch">
+    <a href="../zoos/panda.html">
+      <div class="button">
+        <img src="../../assets/icons/Watch_w.svg" alt="watch">
+        <p>watch online</p>
+      </div>
+    </a>
+  </div>
+</div>
+<footer id="contact">
+  <div class="footer-content">
+    <div class="block-1">
+      <a href="">
+        <div class="logo-w"></div>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="../main/index.html">About</a></li>
+          <li><a href="../zoos/panda.html">Zoos</a></li>
+          <li><a href="../map/intermediatePage.html">Map</a></li>
+          <li><a href="https://www.figma.com/file/HKt5Nlx0jghQtJp6jW9q8F/zooApp">Design</a></li>
+        </ul>
+      </nav>
+      <div class="button-watch">
+        <a>
+          <div class="button button-text">
+            <p>donate for volunteers</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="blocks">
+      <div class="block-2">
+        <h4>Contact us</h4>
+        <form>
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <fieldset>
+            <legend>Please enter your message</legend>
+            <textarea maxlength="280" required></textarea>
+          </fieldset>
+          <input type="checkbox" id="ch" required><label for="ch">I agree to the processing of Personal Data</label>
+          <button type="submit">
+            send <img src="../../assets/icons/send.svg" alt="send button">
+          </button>
+        </form>
+      </div>
+      <div class="block-3">
+        <h5>ZOO Online Centre</h5>
+        <address>
+          132, Address District, Street<br>
+          Open Daily 10:00 am - 5:00 pm<br>
+          <span>
+          T<a href="tel:7021633433">(702) 163-3433</a><br>
+          <a href="mailto:zoo.online@gmail.com">zoo.online@gmail.com</a>
+        </span>
+        </address>
+        <div class="social-networks">
+          <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+          <a href="https://twitter.com/" class="fab fa-twitter"></a>
+          <a href="https://vk.com/" class="fab fa-vk"></a>
+          <a href="https://www.youtube.com/" class="fab fa-youtube"></a>
+        </div>
+      </div>
+    </div>
+    <div class="links">
+      <a href="https://github.com/Krivetka">©Ivan Kuliashov</a><br>
+      <a href="https://github.com/rolling-scopes-school">©RSSchool and ©Yem Digital - 2021</a>
+    </div>
+  </div>
+</footer>
+<script src="https://kit.fontawesome.com/a33ff7c2af.js" crossorigin="anonymous"></script>
+</body>
+</html>
